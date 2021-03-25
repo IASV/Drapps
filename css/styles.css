@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container{
+    padding: 5% 5%;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #E8505B;
+    box-shadow: 1px 3px 5px 0px rgba(128, 128, 128, 0.219);
+    border-radius: 10px;
+}
+
+header ul{
+    margin: 10px;
+}
+
+header ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 10px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #ffe7e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul li a:hover{
+    text-shadow: 1px 1px 5px #830009;
+}
+
+header ul li a:active{
+    color: #ff9496;
+    text-shadow: 1px 1px 5px #330003;
+}
+
+#imageBanner{
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    background-color: rgb(240, 240, 240);
+    overflow: hidden;
+}
+
+#imageBanner img{
+    margin: 20px 0px 0px 25%;
+    width: 50%;
+    height: auto;
+}
+
+#imageBanner:hover{
+    box-shadow: 1px 1px 15px 1px rgba(128, 128, 128, 0.452);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+article{
+    width: 49%;
+    padding: 30px;
+    float: left;
+    margin-right: 1%;
+    height: 350px;
+    border-radius: 10px;
+    /*
+    background-color: rgb(245, 245, 245);
+    */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+article h3{
+    padding-bottom: 10px;
+}
+
+article p{
+    font-size: 14px;
+}
+
+form{
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+    padding: 30px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #39B54A;
+    border-radius: 10px;
+    color: #123b18;
+    overflow: hidden;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form div{
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+form label{
+    width: 40%;
+}
+
+.inputArt{
+    width: 60%;
+    float: right;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid #39B54A;
+}
+
+.inputArt:hover{
+    border: 1px solid #45d458;
+}
+
+form input{
+    width: 100%;
+    float: right;
+    border: none;
+    outline: none;
+}
+
+form #buttonSubmit{
+    width: 100%;
+    height: auto;
+    margin: 5% 0%;
+    padding: 0% 40%;
+}
+
+form button{
+    width: 100%;
+    padding: 10px 0%;
+    margin: 5px 0px;
+    height: auto;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(78, 187, 255);
+    box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.233);
+}
+
+form button:hover{
+    background-color: rgb(75, 186, 255);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+    box-shadow: 1px 1px 5px 0px rgba(128, 128, 128, 0.877);
+}
+
+form button:active{
+    background-color: rgb(0, 124, 201);
+    color: rgb(112, 112, 112);
+}
+
+#galery{
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+#galery h2{
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #F7CC7F;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(97, 63, 0);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#galery div{
+    padding: 10px;
+    overflow: hidden;
+    height: 250px;
+}
+
+#galery div #img1, #img2{
+    width: 49%;
+    float: left;
+}
+
+#galery div #img1{
+    margin-right: 1%;
+    height: 100%;
+}
+
+#galery div #img2{
+    margin-left: 1%; 
+    height: 100%;  
+}
+
+.imgGalery{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: rgb(240, 240, 240);
+}
+
+.imgGalery:hover{
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.452);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline;
+    margin: 5px
+}
+
+footer ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#copyright{
+    float: right;
+    text-align: right;
+    font-family: verdana;
+}
+
+#yo:hover{
+    color: #E8505B;
+    transition-duration: 0.3s;
+}
+
+#tw:hover{
+    color:rgb(62, 156, 214);
+    transition-duration: 0.3s;
+}
+
+#fa:hover{
+    color: rgb(0, 96, 156);
+    transition-duration: 0.3s;
+}

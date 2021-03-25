@@ -1,0 +1,32 @@
+@media screen and (max-width: 750px){
+    article{
+        width: 100%;
+        height: auto;
+    }
+
+    form{
+        width: 100%;
+        transition-duration: 0.3s;
+    }
+
+    #galery div{
+        width: 100%;
+        height: auto;
+        clear: left;
+        transition-duration: 0.3s;
+    }
+
+    #galery div #img1, #img2{
+        width: 100%;
+    }
+
+    #galery div #img2{
+        margin-top: 1%;
+        margin-left: 0%; 
+        height: 100%;  
+    }
+
+    #galery div #img1{
+        margin-bottom: 1%;
+    }
+}
